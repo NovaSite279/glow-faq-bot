@@ -1,0 +1,3 @@
+# Only public/ should be reachable from the web. This blocks the rest
+# (.env, src/, storage/) if the whole repo is uploaded to a web folder.
+Require all denied
