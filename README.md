@@ -2,6 +2,8 @@
 
 A chatbot for a made-up hair salon in Sandton. It gives short, friendly WhatsApp-style replies, and it answers only from `faq.md`.
 
+**Try it live on your phone:** https://glow.novasite.co.za
+
 It runs two ways:
 - **Chat page:** a phone-friendly page styled like a WhatsApp chat.
 - **Terminal script:** `php cli.php`.
@@ -15,7 +17,7 @@ You need PHP 8.1 or newer with the curl extension. Check with `php -v`.
 1. **Get a free API key.** Go to https://console.groq.com/keys, sign up (Google or GitHub login works), click **Create API Key** and copy it. It starts with `gsk_`.
 2. **Get the code.**
    ```bash
-   git clone https://github.com/<you>/glow-faq-bot.git
+   git clone https://github.com/NovaSite279/glow-faq-bot.git
    cd glow-faq-bot
    ```
 3. **Add the key.**
